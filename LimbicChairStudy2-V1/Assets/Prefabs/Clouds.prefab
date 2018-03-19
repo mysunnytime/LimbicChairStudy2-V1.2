@@ -1,0 +1,1076 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1904029666394116}
+  m_IsPrefabParent: 1
+--- !u!1 &1059490872481968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250883566073782}
+  - component: {fileID: 114963422619364554}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1122431953280962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4972802193601120}
+  - component: {fileID: 114402964104076944}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1169658648231756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4829849304894278}
+  - component: {fileID: 114324727120687616}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1245450660821886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4988437849764656}
+  - component: {fileID: 114220229403780986}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1378941978546272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4939815254306706}
+  - component: {fileID: 114712127941623512}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1454309302671818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4272028975507054}
+  - component: {fileID: 114509244539601344}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1492117558432226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4720484478758270}
+  - component: {fileID: 114468823477303932}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1633284319611440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4846538806692038}
+  - component: {fileID: 114950102582999134}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1865355263199590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576078096497808}
+  - component: {fileID: 114039030874015754}
+  m_Layer: 0
+  m_Name: CloudsToyMnager_Emp (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1904029666394116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4602653091491416}
+  m_Layer: 0
+  m_Name: Clouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250883566073782
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059490872481968}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -508, y: -69.99991, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4272028975507054
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454309302671818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9, y: -69.99991, z: 500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4576078096497808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865355263199590}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 496, y: -69.99991, z: 24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4602653091491416
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904029666394116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 69.99991, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4939815254306706}
+  - {fileID: 4829849304894278}
+  - {fileID: 4720484478758270}
+  - {fileID: 4250883566073782}
+  - {fileID: 4972802193601120}
+  - {fileID: 4272028975507054}
+  - {fileID: 4846538806692038}
+  - {fileID: 4576078096497808}
+  - {fileID: 4988437849764656}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4720484478758270
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492117558432226}
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -374, y: -69.99991, z: -386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!4 &4829849304894278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169658648231756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -69.99991, z: -493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4846538806692038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633284319611440}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 386, y: -69.99991, z: -395}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!4 &4939815254306706
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378941978546272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 114.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4972802193601120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122431953280962}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -393, y: -69.99991, z: 387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!4 &4988437849764656
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245450660821886}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 394, y: -69.99991, z: 375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4602653091491416}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &114039030874015754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865355263199590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 60
+  Side: {x: 200, y: 100, z: 600}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114220229403780986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245450660821886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 20
+  Side: {x: 200, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114324727120687616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169658648231756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 60
+  Side: {x: 600, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114402964104076944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122431953280962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 20
+  Side: {x: 200, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114468823477303932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492117558432226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 20
+  Side: {x: 200, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114509244539601344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454309302671818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 60
+  Side: {x: 600, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114712127941623512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378941978546272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 5
+  CloudRender: 1
+  CloudDetail: 2
+  TypeClouds: 6
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 6
+  Side: {x: 1000, y: 200, z: 1000}
+  MaximunVelocity: {x: -20, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.902, g: 0.902, b: 0.902, a: 0.502}
+  MainColor: {r: 0.796, g: 0.796, b: 0.796, a: 0.302}
+  SecondColor: {r: 0.514, g: 0.514, b: 0.514, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 283
+  MaxHeightCloud: 97
+  MaxDepthCloud: 278
+  FixedSize: 0
+  NumberOfShadows: 4
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 1
+  AnimationVelocity: 0.1
+  isFadeInOut: 1
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114950102582999134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633284319611440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 20
+  Side: {x: 200, y: 100, z: 200}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0
+--- !u!114 &114963422619364554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059490872481968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2101458953, guid: a60c01cec10e9a4468b7ccb61becaecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaximunClouds: 300
+  CloudPreset: 1
+  CloudRender: 1
+  CloudDetail: 1
+  TypeClouds: 1
+  realisticShader: {fileID: 4800000, guid: 7ad368ed770217c41b82395d446f2386, type: 3}
+  brightShader: {fileID: 4800000, guid: 8e7b06511ba28d94b8363b087e90ff78, type: 3}
+  projectorMaterial: {fileID: 2100000, guid: fae9b28b8e5671e47b550465dab02b07, type: 2}
+  positionCheckerTime: 0.1
+  SizeFactorPart: 1.2
+  EmissionMult: 1.5
+  _showDebug: 1
+  SoftClouds: 0
+  SpreadDir: {x: -1, y: 0, z: 0}
+  LengthSpread: 1
+  NumberClouds: 60
+  Side: {x: 200, y: 100, z: 600}
+  MaximunVelocity: {x: -10, y: 0, z: 0}
+  VelocityMultipier: 0.85
+  DisappearMultiplier: 2
+  PaintType: 1
+  CloudColor: {r: 0.9, g: 0.9, b: 0.9, a: 0.5}
+  MainColor: {r: 0.8014706, g: 0.78379107, b: 0.78379107, a: 0.3}
+  SecondColor: {r: 0.31, g: 0.31, b: 0.31, a: 1}
+  TintStrength: 80
+  offset: 0.8
+  MaxWidthCloud: 200
+  MaxHeightCloud: 50
+  MaxDepthCloud: 200
+  FixedSize: 0
+  NumberOfShadows: 3
+  CloudsTextAdd:
+  - {fileID: 2800000, guid: 08f28e42a647e2a4cbd32e793359aa3c, type: 3}
+  - {fileID: 2800000, guid: 6e77d387966489d6cb6bb6ba39e09c45, type: 3}
+  - {fileID: 2800000, guid: 2a49aa5b76842305fc65897abcdcf30f, type: 3}
+  - {fileID: 2800000, guid: 1a5d8cd24a805cd44b00c7f1e1e4d287, type: 3}
+  - {fileID: 2800000, guid: e7d408c28925be148bd9ef32f4f28e44, type: 3}
+  - {fileID: 2800000, guid: 12fc7494136c2784e820b038a6e26775, type: 3}
+  CloudsTextBlended:
+  - {fileID: 2800000, guid: eedf011930033df42bf86ffb16ecab58, type: 3}
+  - {fileID: 2800000, guid: 5aa49c4981b056640a1a0e03104ed729, type: 3}
+  - {fileID: 2800000, guid: 94d0b87f81d57434ab83119dfd5558dc, type: 3}
+  - {fileID: 2800000, guid: 472961f99fc8691438c539267dd76d1a, type: 3}
+  - {fileID: 2800000, guid: 587c1727a13db6e4f97e85139efd350f, type: 3}
+  - {fileID: 2800000, guid: 2645426f7fe701f49afc5b042b4b7d50, type: 3}
+  IsAnimate: 0
+  AnimationVelocity: 0.1
+  isFadeInOut: 0
+  fadeRatio: 20
+  alphaRange: 0.3
+  ProceduralTexture: {fileID: 0}
+  PT1TextureWidth: 128
+  PT1TextureHeight: 128
+  PT1TypeNoise: 0
+  PT1Seed: 132
+  PT1ScaleWidth: 1
+  PT1ScaleHeight: 1
+  PT1ScaleFactor: 1
+  PT1Lacunarity: 3
+  PT1FractalIncrement: 0.5
+  PT1Octaves: 7
+  PT1Offset: 1
+  PT1TurbSize: 16
+  PT1TurbLacun: 0.01
+  PT1TurbGain: 0.5
+  PT1turbPower: 5
+  PT1xyPeriod: 0.8
+  PT1HaloEffect: 1.7
+  PT1HaloInsideRadius: 0.1
+  PT1InvertColors: 0
+  PT1ContrastMult: 0
+  PT1UseAlphaTexture: 1
+  PT1AlphaIndex: 0.1
+  fadeRatioPrev: 0

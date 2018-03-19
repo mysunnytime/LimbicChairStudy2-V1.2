@@ -1,0 +1,63 @@
+
+Participant ID: 0	Date: 3/10/2018 9:24:27 AM
+
+Participant ID: 0	Date: 3/10/2018 9:38:08 AM
+
+Participant ID: 0	Date: 3/10/2018 9:39:10 AM
+time to find the first Chest: 72.76384s.
+time to find the second Chest: 0s.
+
+Participant ID: 0	Date: 3/10/2018 10:01:03 AM
+
+Participant ID: 0	Date: 3/10/2018 10:01:31 AM
+
+Participant ID: 0	Date: 3/10/2018 10:16:18 AM
+time to find the first Chest: 131.3482s.
+time to find the second Chest: 0s.
+
+Participant ID: 0	Date: 3/10/2018 10:47:46 AM
+time to find the first Chest: 161.5563s.
+
+Participant ID: 0	Date: 3/10/2018 11:18:46 AM
+time to find the first Chest: 295.5356s.
+
+Participant ID: 0	Date: 3/10/2018 11:35:24 AM
+
+Participant ID: 0	Date: 3/10/2018 11:36:02 AM
+time to find the first Chest: 169.342s.
+
+Participant ID: 0	Date: 3/10/2018 11:51:02 AM
+time to find the second Chest: 182.6576s.
+
+Participant ID: 0	Date: 3/10/2018 2:18:22 PM
+
+Participant ID: 0	Date: 3/10/2018 2:20:03 PM
+
+Participant ID: 0	Date: 3/10/2018 2:21:17 PM
+time to find the first Chest: 88.4539s.
+
+Participant ID: 0	Date: 3/10/2018 2:33:17 PM
+
+Participant ID: 0	Date: 3/10/2018 2:34:16 PM
+time to find the second Chest: 104.1289s.
+
+Participant ID: 0	Date: 3/10/2018 2:44:00 PM
+time to find the third Chest: 68.50586s.
+
+Participant ID: 0	Date: 3/10/2018 3:08:14 PM
+
+Participant ID: 0	Date: 3/11/2018 4:53:51 PM
+
+Participant ID: 0	Date: 3/11/2018 5:16:29 PM
+
+Participant ID: 0	Date: 3/11/2018 5:24:01 PM
+
+Participant ID: 0	Date: 3/11/2018 5:24:41 PM
+
+Participant ID: 0	Date: 3/12/2018 8:47:54 AM
+
+Participant ID: 0	Date: 3/12/2018 8:48:13 AM
+
+Participant ID: 0	Date: 3/12/2018 8:49:26 AM
+
+Participant ID: 	Date: 3/12/2018 8:58:29 AM

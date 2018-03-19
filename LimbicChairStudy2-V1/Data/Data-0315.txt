@@ -1,0 +1,75 @@
+
+Participant ID: 	Date: 3/12/2018 9:16:52 AM
+Chest not found. Time of the session: 30.01086 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 9:17:31 AM
+Chest not found. Time of the session: 16.54222 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 9:20:40 AM
+Chest not found. Time of the session: 30.56674 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 9:22:35 AM
+Chest not found. Time of the session: 42.11415 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 9:24:23 AM
+Chest not found. Time of the session: 17.09483 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 9:26:45 AM
+Chest not found. Time of the session: 2.964186 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 10:47:04 AM
+Chest not found. Time of the session: 18.45038 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 10:48:07 AM
+Chest not found. Time of the session: 2.076902 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 10:50:57 AM
+Chest not found. Time of the session: 2.503643 s.
+
+
+
+Participant ID: 	Date: 3/12/2018 10:59:03 AM
+Chest not found. Time of the session: 12.82428 s.
+
+
+
+Participant ID: 	Date: 3/13/2018 11:48:06 AM
+Chest not found. Time of the session: 4.738552 s.
+
+
+
+Participant ID: 	Date: 3/15/2018 4:57:42 PM
+Chest not found. Time of the session: 1.77666 s.
+
+
+
+Participant ID: 	Date: 3/15/2018 4:59:13 PM
+Chest not found. Time of the session: 1.876037 s.
+
+
+
+Participant ID: 	Date: 3/15/2018 4:59:38 PM
+Chest not found. Time of the session: 4.270605 s.
+
+
+
+Participant ID: 	Date: 3/15/2018 5:02:09 PM
+Chest not found. Time of the session: 3.257602 s.
+
+
