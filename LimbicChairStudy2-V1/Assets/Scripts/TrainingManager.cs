@@ -17,6 +17,7 @@ public class TrainingManager : MonoBehaviour {
         CONFIRNMING // comfirm to move to the real experiment scene
     }
 
+    public Flying flying;
     public Section section;
     public Text stateDisplay;
     TrainingState state;
@@ -40,6 +41,7 @@ public class TrainingManager : MonoBehaviour {
             else if(state == TrainingState.CONFIRNMING)
             {
                 Debug.Log("transfer to new scene.");
+                flying.saveCalibration();
                 switch (section)
                 {
                     case Section.SECTION_1:

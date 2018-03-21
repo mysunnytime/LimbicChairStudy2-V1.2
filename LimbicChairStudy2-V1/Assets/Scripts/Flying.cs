@@ -13,7 +13,7 @@ public class Flying : MonoBehaviour
     /******************************************************************************************************************************/
     /**********                         UI Display: Display UI messages on screen when calibrating                      ***********/
     /******************************************************************************************************************************/
-    public GameObject CalibratingGO;
+    public GameObject calibrationDisplay;
 
     /******************************************************************************************************************************/
     /**********             Speed Parameters: You can change them to move faster/slower toward each direction           ***********/
@@ -41,7 +41,7 @@ public class Flying : MonoBehaviour
 	Vector3 headZero, headCurrent;
 	float headXo = 0, headYo = 0, headZo = 0, headWidth = .09f, headHeight = .07f;
 	float exponentialTransferFuntionPower = 1.53f;
-	int initializeStep = 0;
+	public int initializeStep = 0;
 
 	//0 = before printing PressSpace message, 1 = after PressSpace message waiting for space, 2 = after space press and when the user can fly
 
@@ -69,10 +69,13 @@ public class Flying : MonoBehaviour
 		//Print the initial message on screen
 		if (initializeStep == 0)
         {
-            CalibratingGO.SetActive(true);
             Debug.Log ("Ask the user to sit straight and look forward and then press the right controller trigger");
 			initializeStep = 1;
 		}
+        else if (initializeStep == 1)
+        {
+            calibrationDisplay.SetActive(true);
+        }
 
         //Check if the user pressed trigger
         if (!viveControllerTriggerStatus && (viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed || viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
@@ -86,7 +89,7 @@ public class Flying : MonoBehaviour
                 headYo = viveCameraEye.transform.localPosition.y + headHeight * Mathf.Sin(viveCameraEye.transform.rotation.eulerAngles.x * Mathf.PI / 180); //Calculate the Neck y Position;
                 headZo = viveCameraEye.transform.localPosition.z - headWidth * Mathf.Cos(headYaw * Mathf.PI / 180); //Calculate the Neck y Position
                 headZero = new Vector3(headXo, headYo, headZo);
-                CalibratingGO.SetActive(false);
+                calibrationDisplay.SetActive(false);
                 Debug.Log("Great! Now the user can fly");
                 initializeStep = 2;
             } else if (initializeStep == 2)
@@ -103,47 +106,6 @@ public class Flying : MonoBehaviour
             //Debug.Log ("Right Controller pad is released!");
             viveControllerTriggerStatus = false;
         }
-
-        ////Check if the user pressed trigger
-        //if (!viveControllerTriggerStatus && (viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed || viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
-        //{
-        //    //Debug.Log ("Right Controller trigger is pressed!");
-        //    viveControllerTriggerStatus = true;
-
-        //    //Read the Vive Controller data to calculate the neck position
-        //    float headYaw = viveCameraEye.transform.localRotation.eulerAngles.y;
-        //    headXo = viveCameraEye.transform.localPosition.x - headWidth * Mathf.Sin(headYaw * Mathf.PI / 180); //Calculate the Neck x Position
-        //    headYo = viveCameraEye.transform.localPosition.y + headHeight * Mathf.Sin(viveCameraEye.transform.rotation.eulerAngles.x * Mathf.PI / 180); //Calculate the Neck y Position;
-        //    headZo = viveCameraEye.transform.localPosition.z - headWidth * Mathf.Cos(headYaw * Mathf.PI / 180); //Calculate the Neck y Position
-        //    headZero = new Vector3(headXo, headYo, headZo);
-
-        //    Debug.Log("Great! Now the user can fly");
-        //    initializeStep = 2;
-        //}
-
-        ////Check if the user released trigger
-        //if (viveControllerTriggerStatus && !viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed)
-        //{
-        //    //Debug.Log ("Right Controller pad is released!");
-        //    viveControllerTriggerStatus = false;
-        //}
-
-        ////Check if the user pressed pad
-        //if (!viveControllerPadStatus && viveRightController.GetComponent<SteamVR_TrackedController> ().padPressed) {
-        //	//Debug.Log ("Right Controller trigger is pressed!");
-        //	viveControllerPadStatus = true;
-        //	if (handBrakeActivated) { //disable hand brake
-        //		handBrakeActivated = false;
-        //	} else { //enable hand brake
-        //		handBrakeActivated = true;
-        //	}
-        //}
-
-        ////Check if the user released pad
-        //if (viveControllerPadStatus && !viveRightController.GetComponent<SteamVR_TrackedController> ().padPressed) {
-        //	//Debug.Log ("Right Controller pad is released!");
-        //	viveControllerPadStatus = false;
-        //}
     }
 
 
@@ -225,4 +187,28 @@ public class Flying : MonoBehaviour
 
 		}
 	}
+
+
+    /******************************************************************************************************************************/
+    /******                                          save and fetch data across scenes                                        *****/
+    /******************************************************************************************************************************/
+    public void saveCalibration()
+    {
+        GlobalControl.Instance.initializeStep = initializeStep;
+        GlobalControl.Instance.headZero = headZero;
+        GlobalControl.Instance.headCurrent = headCurrent;
+        GlobalControl.Instance.headXo = headXo;
+        GlobalControl.Instance.headYo = headYo;
+        GlobalControl.Instance.headZo = headZo;
+    }
+
+    public void fetchCalibration()
+    {
+        headZero = GlobalControl.Instance.headZero;
+        headCurrent = GlobalControl.Instance.headCurrent;
+        headXo = GlobalControl.Instance.headXo;
+        headYo = GlobalControl.Instance.headYo;
+        headZo = GlobalControl.Instance.headZo;
+        initializeStep = GlobalControl.Instance.initializeStep;
+    }
 }

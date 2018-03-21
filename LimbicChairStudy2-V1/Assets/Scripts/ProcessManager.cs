@@ -23,14 +23,50 @@ public class ProcessManager : MonoBehaviour
     public ChestControl chest;
     public Flying flying;
     public Text stateDisplay;
+    public Text timeDisplay;
+    public GameObject tourInfo;
+    public GameObject chestInfo;
 
-    // Use this for initialization
+    void SetupNewState(ProcessState s)
+    {
+        switch (s)
+        {
+            case ProcessState.PREPAREATION_1:
+                flying.fetchCalibration();
+                flying.speedLimit /= 50;
+                tourInfo.SetActive(true);
+                timeDisplay.gameObject.SetActive(false);
+                chest.gameObject.SetActive(false);
+                chestInfo.SetActive(false);
+                break;
+            case ProcessState.TASK_1:
+                if(flying.speedLimit < 1) flying.speedLimit *= 50;
+                time = 0;
+                tourInfo.SetActive(false);
+                chest.gameObject.SetActive(false);
+                break;
+            case ProcessState.PREPAREATION_2:
+                chestInfo.SetActive(true);
+                break;
+            case ProcessState.TASK_2:
+                time = 0;
+                chestInfo.SetActive(false);
+                timeDisplay.gameObject.SetActive(true);
+                chest.gameObject.SetActive(true);
+                chest.Open();
+                chest.transform.position = chest.position.position;
+                chest.transform.rotation = chest.position.rotation;
+                break;
+        }
+
+    }
+
     void Start()
     {
         WriteString("\nParticipant ID: " + ParticipantID + "\tDate: " + System.DateTime.Now);
+        SetupNewState(ProcessState.PREPAREATION_1);
     }
 
-    // Update is called once per frame
     void Update()
     {
         Debug.Log("state: " + state);
@@ -39,10 +75,12 @@ public class ProcessManager : MonoBehaviour
         // reset to task one or task two
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            SetupNewState(ProcessState.PREPAREATION_1);
             state = ProcessState.PREPAREATION_1;
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+            SetupNewState(ProcessState.PREPAREATION_2);
             state = ProcessState.PREPAREATION_2;
         }
 
@@ -50,8 +88,7 @@ public class ProcessManager : MonoBehaviour
         if (state == ProcessState.PREPAREATION_1) {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                time = 0;
-                chest.gameObject.SetActive(false);
+                SetupNewState(ProcessState.TASK_1);
                 state = ProcessState.TASK_1;
             }
         }
@@ -59,6 +96,7 @@ public class ProcessManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                SetupNewState(ProcessState.PREPAREATION_2);
                 state = ProcessState.PREPAREATION_2;
             }
         }
@@ -66,19 +104,17 @@ public class ProcessManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                time = 0;
-                chest.gameObject.SetActive(true);
-                chest.Open();
-                chest.transform.position = chest.position.position;
-                chest.transform.rotation = chest.position.rotation;
+                SetupNewState(ProcessState.TASK_2);
                 state = ProcessState.TASK_2;
             }
         }
         else if (state == ProcessState.TASK_2)
         {
+            time += Time.deltaTime;
+            timeDisplay.text = StringfyTime(180 - (int)time);
             if (chest.foundTrigger)
             {
-                WriteString("time to find the chest: " + (int)time);
+                WriteString("time to find the chest: " + (int)time + " s.");
                 state = ProcessState.END;
                 chest.foundTrigger = false;
             }
@@ -88,7 +124,6 @@ public class ProcessManager : MonoBehaviour
                 chest.gameObject.SetActive(false);
                 state = ProcessState.END;
             }
-            time += Time.deltaTime;
         }
     }
 
@@ -103,5 +138,15 @@ public class ProcessManager : MonoBehaviour
 		StreamWriter writer = new StreamWriter (path, true);
 		writer.WriteLine (s);
 		writer.Close ();
-	}
+    }
+
+    string StringfyTime(float time)
+    {
+        string minute = "" + (int)time / 60;
+        string second = "" + (int)time % 60;
+        if ((int)time / 60 < 10) minute = "0" + minute;
+        if ((int)time % 60 < 10) second = "0" + second;
+        return minute + ":" + second;
+    }
+
 }
