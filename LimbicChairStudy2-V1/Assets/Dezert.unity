@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00077111163, g: 0.00062250753, b: 0.0009912731, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 93.873, z: 0}
 --- !u!1001 &472910451
 Prefab:
@@ -617,7 +617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 21.465, y: 103.98701, z: 235.592}
 --- !u!43 &1490734621
 Mesh:
@@ -812,7 +812,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1869526459
 Prefab:
@@ -823,11 +823,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4858537431353316, guid: 87411c5255f4c4643b292ced0c6b4965, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3924
+      value: -1934
       objectReference: {fileID: 0}
     - target: {fileID: 4858537431353316, guid: 87411c5255f4c4643b292ced0c6b4965, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5000
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 4858537431353316, guid: 87411c5255f4c4643b292ced0c6b4965, type: 2}
       propertyPath: m_LocalPosition.z
