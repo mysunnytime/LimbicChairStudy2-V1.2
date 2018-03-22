@@ -35,8 +35,10 @@ public class Flying : MonoBehaviour
 	//float locomotionDirection = 0;
 	Vector3 LocomotionEuler = new Vector3 ();
 	Quaternion LocomotionQuat = new Quaternion ();
-	bool interfaceIsReady = false, viveControllerTriggerStatus = false;
-	bool handBrakeActivated = false, viveControllerPadStatus = false;
+    bool interfaceIsReady = false;
+    public bool viveRightControllerTriggerStatus = false;
+    public bool viveLeftControllerTriggerStatus = false;
+    bool handBrakeActivated = false, viveControllerPadStatus = false;
 	float handBrakeDecceleratrion = 3;
 	Vector3 headZero, headCurrent;
 	float headXo = 0, headYo = 0, headZo = 0, headWidth = .09f, headHeight = .07f;
@@ -78,9 +80,9 @@ public class Flying : MonoBehaviour
         }
 
         //Check if the user pressed trigger
-        if (!viveControllerTriggerStatus && (viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed || viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
+        if (!viveRightControllerTriggerStatus && (viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
         {
-            //Debug.Log ("Right Controller trigger is pressed!");
+            Debug.Log ("Right Controller trigger is pressed!");
             if (initializeStep == 1)
             {
                 //Read the Vive Controller data to calculate the neck position
@@ -90,22 +92,23 @@ public class Flying : MonoBehaviour
                 headZo = viveCameraEye.transform.localPosition.z - headWidth * Mathf.Cos(headYaw * Mathf.PI / 180); //Calculate the Neck y Position
                 headZero = new Vector3(headXo, headYo, headZo);
                 calibrationDisplay.SetActive(false);
-                Debug.Log("Great! Now the user can fly");
+                //Debug.Log("Great! Now the user can fly");
                 initializeStep = 2;
             } else if (initializeStep == 2)
             {
-                Debug.Log("Reseted status.");
+                //Debug.Log("Reseted status.");
                 initializeStep = 0;
             }
-            viveControllerTriggerStatus = true;
+            viveRightControllerTriggerStatus = true;
         }
 
         //Check if the user released trigger
-        if (viveControllerTriggerStatus && !(viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed || viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
+        if (viveRightControllerTriggerStatus && !(viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
         {
-            //Debug.Log ("Right Controller pad is released!");
-            viveControllerTriggerStatus = false;
+            Debug.Log ("Right Controller pad is released!");
+            viveRightControllerTriggerStatus = false;
         }
+        Debug.Log(viveRightControllerTriggerStatus);
     }
 
 

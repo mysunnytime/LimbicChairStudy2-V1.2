@@ -26,6 +26,7 @@ public class ProcessManager : MonoBehaviour
     public Text timeDisplay;
     public GameObject tourInfo;
     public GameObject chestInfo;
+    public RenderTexture cameraPreview;
 
     void SetupNewState(ProcessState s)
     {
@@ -94,6 +95,21 @@ public class ProcessManager : MonoBehaviour
         }
         else if (state == ProcessState.TASK_1)
         {
+
+            //Check if the user pressed trigger
+            if (!flying.viveLeftControllerTriggerStatus && (flying.viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed))
+            {
+                TakePicture();
+                flying.viveLeftControllerTriggerStatus = true;
+            }
+
+            //Check if the user released trigger
+            if (flying.viveLeftControllerTriggerStatus && !(flying.viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed || flying.viveRightController.GetComponent<SteamVR_TrackedController>().triggerPressed))
+            {
+                //Debug.Log ("Right Controller pad is released!");
+                flying.viveLeftControllerTriggerStatus = false;
+            }
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 SetupNewState(ProcessState.PREPAREATION_2);
@@ -147,6 +163,21 @@ public class ProcessManager : MonoBehaviour
         if ((int)time / 60 < 10) minute = "0" + minute;
         if ((int)time % 60 < 10) second = "0" + second;
         return minute + ":" + second;
+    }
+
+    void TakePicture() {
+        Debug.Log("taking picture...");
+        Texture2D tex = new Texture2D(1280, 720, TextureFormat.RGB24, false);
+
+        // Read screen contents into the texture
+        RenderTexture.active = cameraPreview;
+        tex.ReadPixels(new Rect(0, 0, cameraPreview.width, cameraPreview.height), 0, 0);
+        tex.Apply();
+
+        // Encode texture into PNG
+        byte[] bytes = tex.EncodeToPNG();
+        Object.Destroy(tex);
+        File.WriteAllBytes("Data/" + System.DateTime.Now.ToString("MMddHHmmss-") + "0" + 1 + ".png", bytes);
     }
 
 }
