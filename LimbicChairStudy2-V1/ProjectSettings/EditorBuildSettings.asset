@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Training.unity
     guid: d25162148daac1940975bdd9cb531c3d
-  - enabled: 1
+  - enabled: 0
     path: Assets/MountainLake.unity
     guid: b8e8ecf3b349a8e4ca823042eaf3c611
-  - enabled: 1
+  - enabled: 0
     path: Assets/Dezert.unity
     guid: ccf079628c8a2e84faa81ab5c41d6dac
   - enabled: 1

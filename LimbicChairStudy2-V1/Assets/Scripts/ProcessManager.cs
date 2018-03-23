@@ -26,28 +26,37 @@ public class ProcessManager : MonoBehaviour
     public Text timeDisplay;
     public GameObject tourInfo;
     public GameObject chestInfo;
+    public GameObject cameraPreviewObj;
     public RenderTexture cameraPreview;
+    public Text cameraInfo;
+    int pictureID = 1;
 
     void SetupNewState(ProcessState s)
     {
         switch (s)
         {
             case ProcessState.PREPAREATION_1:
-                flying.fetchCalibration();
+                if(GlobalControl.Instance != null) flying.fetchCalibration();
                 flying.speedLimit /= 50;
                 tourInfo.SetActive(true);
                 timeDisplay.gameObject.SetActive(false);
                 chest.gameObject.SetActive(false);
                 chestInfo.SetActive(false);
+                cameraInfo.gameObject.SetActive(false);
+                cameraPreviewObj.SetActive(false);
                 break;
             case ProcessState.TASK_1:
                 if(flying.speedLimit < 1) flying.speedLimit *= 50;
                 time = 0;
                 tourInfo.SetActive(false);
                 chest.gameObject.SetActive(false);
+                cameraInfo.gameObject.SetActive(true);
+                cameraPreviewObj.SetActive(true);
                 break;
             case ProcessState.PREPAREATION_2:
                 chestInfo.SetActive(true);
+                cameraInfo.gameObject.SetActive(false);
+                cameraPreviewObj.SetActive(true);
                 break;
             case ProcessState.TASK_2:
                 time = 0;
@@ -95,6 +104,24 @@ public class ProcessManager : MonoBehaviour
         }
         else if (state == ProcessState.TASK_1)
         {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SetupNewState(ProcessState.PREPAREATION_2);
+                state = ProcessState.PREPAREATION_2;
+            }
+
+            switch (pictureID) {
+                case 1:
+                    cameraInfo.text = "Take your first picture";
+                    break;
+                case 2:
+                    cameraInfo.text = "Take your second picture";
+                    break;
+                default:
+                    cameraInfo.gameObject.SetActive(false);
+                    cameraPreviewObj.SetActive(false);
+                    return;
+            }
 
             //Check if the user pressed trigger
             if (!flying.viveLeftControllerTriggerStatus && (flying.viveLeftController.GetComponent<SteamVR_TrackedController>().triggerPressed))
@@ -108,12 +135,6 @@ public class ProcessManager : MonoBehaviour
             {
                 //Debug.Log ("Right Controller pad is released!");
                 flying.viveLeftControllerTriggerStatus = false;
-            }
-
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                SetupNewState(ProcessState.PREPAREATION_2);
-                state = ProcessState.PREPAREATION_2;
             }
         }
         else if (state == ProcessState.PREPAREATION_2)
@@ -177,7 +198,8 @@ public class ProcessManager : MonoBehaviour
         // Encode texture into PNG
         byte[] bytes = tex.EncodeToPNG();
         Object.Destroy(tex);
-        File.WriteAllBytes("Data/" + System.DateTime.Now.ToString("MMddHHmmss-") + "0" + 1 + ".png", bytes);
+        File.WriteAllBytes("Data/" + System.DateTime.Now.ToString("MMddHHmmss-") + "0" + pictureID + ".png", bytes);
+        pictureID++;
     }
 
 }
