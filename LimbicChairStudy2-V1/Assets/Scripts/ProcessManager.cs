@@ -31,12 +31,16 @@ public class ProcessManager : MonoBehaviour
     public Text cameraInfo;
     int pictureID = 1;
 
+    //public Text debugInfo;
+
     void SetupNewState(ProcessState s)
     {
         switch (s)
         {
             case ProcessState.PREPAREATION_1:
-                if(GlobalControl.Instance != null) flying.fetchCalibration();
+                WriteString("\nParticipant ID: " + ParticipantID + "\tDate: " + System.DateTime.Now);
+                //Debug.Log("Setting up preparation 1"); debugInfo.text = "Setting up preparation 1";
+                if (GlobalControl.Instance != null) flying.fetchCalibration();
                 flying.speedLimit /= 50;
                 tourInfo.SetActive(true);
                 timeDisplay.gameObject.SetActive(false);
@@ -46,7 +50,8 @@ public class ProcessManager : MonoBehaviour
                 cameraPreviewObj.SetActive(false);
                 break;
             case ProcessState.TASK_1:
-                if(flying.speedLimit < 1) flying.speedLimit *= 50;
+                //Debug.Log("Setting up task 1"); debugInfo.text = "Setting up task 1";
+                if (flying.speedLimit < 1) flying.speedLimit *= 50;
                 time = 0;
                 tourInfo.SetActive(false);
                 chest.gameObject.SetActive(false);
@@ -54,11 +59,13 @@ public class ProcessManager : MonoBehaviour
                 cameraPreviewObj.SetActive(true);
                 break;
             case ProcessState.PREPAREATION_2:
+                //Debug.Log("Setting up preparation 2"); debugInfo.text = "Setting up preparation 2";
                 chestInfo.SetActive(true);
                 cameraInfo.gameObject.SetActive(false);
-                cameraPreviewObj.SetActive(true);
+                cameraPreviewObj.SetActive(false);
                 break;
             case ProcessState.TASK_2:
+                //Debug.Log("Setting up task 2"); debugInfo.text = "Setting up task 2";
                 time = 0;
                 chestInfo.SetActive(false);
                 timeDisplay.gameObject.SetActive(true);
@@ -73,7 +80,6 @@ public class ProcessManager : MonoBehaviour
 
     void Start()
     {
-        WriteString("\nParticipant ID: " + ParticipantID + "\tDate: " + System.DateTime.Now);
         SetupNewState(ProcessState.PREPAREATION_1);
     }
 
@@ -187,7 +193,7 @@ public class ProcessManager : MonoBehaviour
     }
 
     void TakePicture() {
-        Debug.Log("taking picture...");
+        //Debug.Log("taking picture..."); debugInfo.text = "taking picture...";
         Texture2D tex = new Texture2D(1280, 720, TextureFormat.RGB24, false);
 
         // Read screen contents into the texture
