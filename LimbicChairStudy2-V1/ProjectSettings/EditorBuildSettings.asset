@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MountainLake.unity
     guid: b8e8ecf3b349a8e4ca823042eaf3c611
-  - enabled: 0
+  - enabled: 1
     path: Assets/Dezert.unity
     guid: ccf079628c8a2e84faa81ab5c41d6dac
-  - enabled: 0
+  - enabled: 1
     path: Assets/SnowMountain.unity
     guid: 28b8e054ff54c16468fbb1ec8a296b5b
